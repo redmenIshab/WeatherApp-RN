@@ -7,16 +7,16 @@ const PlaceDetails =(props)=>{
         <SinglePlaceLayout>
         <View>
          <View style={styles.stylingPlaces}>
-             <Text style={{color:'#00007f',fontSize:20}}>
+             <Text style={{color:'#222831',fontSize:20}}>
             {props.location.place}
             </Text>
-            <Text style={{color:'white'}}>
+            <Text style={{color:'#222831'}}>
                 Max: {props.location.max}
             </Text>
-              <Text style={{color:'white'}}>
+              <Text style={{color:'#222831'}}>
                 Min: {props.location.min}
             </Text>
-              <Text style={{color:'white'}}>
+              <Text style={{color:'#222831'}}>
                 Rain: {props.location.rain}
             </Text>
             </View>
@@ -27,7 +27,7 @@ const PlaceDetails =(props)=>{
 };
 const styles={
     stylingPlaces:{
-        backgroundColor:'#07b39b',
+        backgroundColor:'#EAEAEA',
         alignItems: 'center',
         justifyContent: 'center',
         
