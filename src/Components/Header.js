@@ -20,7 +20,7 @@ const styles ={
         height: 70,
         alignItems:'center',
         justifyContent:'center',
-        backgroundColor:'#528881',
+        backgroundColor:'#5073b8',
 
         shadowColor:'grey',
         shadowOffset:{width:2 , height:4},

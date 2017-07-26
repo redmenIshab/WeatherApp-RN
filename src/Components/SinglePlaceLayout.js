@@ -11,7 +11,7 @@ const SinglePlaceLayout =(props) =>{
 };
 const styles={
     placeStyle:{
-        borderColor:'#497a74',
+        borderColor:'#1098ad',
         borderWidth:2,
         borderRadius:5,
         marginLeft:10,

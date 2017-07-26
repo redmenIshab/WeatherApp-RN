@@ -7,7 +7,7 @@ const PlaceDetails =(props)=>{
         <SinglePlaceLayout>
         <View>
          <View style={styles.stylingPlaces}>
-             <Text style={{color:'#a8c3c0',fontSize:20}}>
+             <Text style={{color:'#00007f',fontSize:20}}>
             {props.location.place}
             </Text>
             <Text style={{color:'white'}}>
@@ -27,7 +27,7 @@ const PlaceDetails =(props)=>{
 };
 const styles={
     stylingPlaces:{
-        backgroundColor:'#395f5a',
+        backgroundColor:'#07b39b',
         alignItems: 'center',
         justifyContent: 'center',
         
